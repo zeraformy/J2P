@@ -1,0 +1,27 @@
+* {box-sizing: border-box;}
+div.collapse{ 
+	background-color: #0F9D58;
+	width: 100%;
+}
+div ul li{ padding-left: 10px; }
+.navbar-brand{ padding-left: 8px; }
+h2{ padding-top: 10px; }
+.omc{ background-color: #e3b7d2; color: #364e4a; }
+.chicken{ padding: 15px; }
+/* xs= 0-767 pixels. 
+sm = 768-991 pixels. 
+md = 992-1199 pixels. */
+@media (max-width: 767px){
+	div a button.navbar-toggler{ padding-bottom: 4px!important; }
+	.container-fluid{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.navbar{
+		padding-bottom: 0;
+	}
+	.omc{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}

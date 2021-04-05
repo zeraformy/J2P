@@ -2,6 +2,7 @@ body{
 	font-size: 16px;
 	color: #fff;
 	background-color: #61122f;
+	/* Background:linear-gradient(yellow,blue); */
 	font-family: 'Oxygen', sans-serif;
 }
 /*HEADER*/
@@ -11,7 +12,7 @@ body{
 	border: 0;
 }
 /*LOGO*/
-#logo-img{
+#logo-img{ /*disappears at 767*/
 	background: url('../images/restaurant-logo_large.png') no-repeat;
 	width: 150px;
 	height: 150px;
@@ -43,15 +44,30 @@ body{
 .navbar-brand p span{ /*Star-K*/
 	vertical-align: middle;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+#nav-list{margin-top: 10px;}
+#nav-list a{color: #951C49; text-align: center;}
+#nav-list a:hover{ background: #E7E7E7; }
+#nav-list a span{ font-size: 1.8em; }
+#phone{ margin-top: 5px; }
+#phone a{ /*Phone number*/
+	text-align: right;
+	padding-bottom: 0;
+	text-decoration: none;
+}
+#phone div{ /*We Deliver*/
+	color: #557c3e;
+	text-align:right;
+	padding-right: 15px;;
+}
+.navbar-toggler{ border: 1px solid #61122f; }
+.navbar-toggler div.icon-bar{ 
+	width:35px;	height: 5px;
+	background-color:#61122f;
+	margin: 5px 0; transition:0.5s;
+	border-radius: 3px;
+}
+.navbar-header button.navbar-toggler{
+	clear: both;
+	margin-top: -30px;
+}
+/* Add Media Queries */
