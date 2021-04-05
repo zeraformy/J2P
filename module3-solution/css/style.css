@@ -1,4 +1,6 @@
 * {box-sizing: border-box;}
+html{ scroll-behavior: smooth; }
+main{ margin: 20px; }
 div.collapse{ 
 	background-color: #0F9D58;
 	width: 100%;
@@ -24,4 +26,5 @@ md = 992-1199 pixels. */
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	main{ margin: 30px; }
 }
